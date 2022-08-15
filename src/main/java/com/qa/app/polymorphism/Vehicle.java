@@ -49,4 +49,16 @@ public class Vehicle {
 	public int add(int a, String b, int c) {
 		return  a + c;
 	}
+
+	public void setSpeed(int newSpeed) {
+		this.speed = newSpeed;
+	}
+
+	public int getSpeed() {
+		return speed;
+	}
+
+	public String getMake() {
+		return make;
+	}
 }
